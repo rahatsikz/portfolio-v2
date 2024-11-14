@@ -1,0 +1,29 @@
+.skillsParent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.skill {
+    border: 2px solid var(--px-theme);
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    padding: 10px 5px;
+}
+
+.skill:hover {
+    border-color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .skillsParent {
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .skillsParent {
+        gap: 16px;
+    }
+}

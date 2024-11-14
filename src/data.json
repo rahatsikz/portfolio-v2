@@ -1,0 +1,428 @@
+{
+  "headerData": {
+    "logoDark": "/images/logo.svg",
+    "logoLight": "/images/logo-light.svg"
+  },
+  "heroData": {
+    "title": "<div style='margin-bottom: 15px; font-size: 50px;'>Hey... It's</div> <span>Rahat Sikder</span>",
+    "subTitle": "<span>Full Stack Developer</span> <br /> Based in <span>Dhaka</span>",
+    "ImgLink": "/images/hero-image.png",
+    "phone": "01521210755",
+    "email": "rahatsikz@gmail.com",
+    "btnText": "Work with me",
+    "resumeCv": "/Resume.pdf",
+    "socialData": [
+      {
+        "link": "",
+        "icon": "dribbble"
+      },
+      {
+        "link": "",
+        "icon": "instagram"
+      },
+      {
+        "link": "",
+        "icon": "facebook"
+      }
+    ]
+  },
+  "aboutData": {
+    "aboutLeft": {
+      "ImgLink": "/images/about-banner.png",
+      "name": "Lilon Macwan",
+      "designation": "Web Designer <span>based in</span> USA",
+      "resumeCv": "/Resume.pdf"
+    },
+    "aboutRight": {
+      "aboutText": "I'm a passionate software developer born in 1995, with a deep commitment to building innovative digital solutions. I started my journey in development back in 2017, and in 2022, I made the switch to focus on the JavaScript stack, which has allowed me to bring a fresh perspective to modern web development. I'm a determined individual aiming to make a meaningful impact through my work, constantly learning new technologies in the programming field. Writing code, fixing bugs, diving into documentation, and exploring creative solutions have become my daily routine over the last few years. I also have hands-on experience developing SaaS products and working under pressure to deliver high-quality results.",
+      "contactInfo": [
+        {
+          "icon": "phone",
+          "data": "+123 45 666 7788"
+        },
+        {
+          "icon": "person",
+          "data": "Lilon Macwan"
+        },
+        {
+          "icon": "envelope",
+          "data": "lilonesigner@gmail.com"
+        },
+        {
+          "icon": "map",
+          "data": "California, USA"
+        }
+      ],
+      "achivement": [
+        {
+          "number": "06+",
+          "meta": "Years of <br /> dev experience",
+          "text": "Hello there! My name is <span>Lilon Macwan</span>. I am a web designer & developer, and Im very passionate and dedicated to my work."
+        },
+        {
+          "number": "14+",
+          "meta": "Professional <br />projects completed",
+          "text": "With 10+ years experience as a professional designer, I have acquired the skills to make your project a success."
+        },
+        {
+          "number": "900+",
+          "meta": "Commits pushed <br /> across projects"
+        }
+      ],
+      "note": "Crafting visually appealing interfaces with a focus on seamless user experience is what I love to do"
+    }
+  },
+  "experienceData": {
+    "text": "As a developer, I had the opportunity to work on a wide range of projects, from simple landing pages to complex SaaS.",
+    "resumeCv": "/Resume.pdf",
+    "experience": [
+      {
+        "start": "August, 2023",
+        "end": "January, 2024",
+        "title": "Full Stack Developer",
+        "company": "DevRiser LLC",
+        "location": "USA",
+        "contribution":[
+          "Built and maintained SaaS Product (CRM)",
+          "Reviewed code, debugged problems and corrected issues",
+          "Had the opportunity to lead the frontend team for couple of months",
+          "Utilized Next.js to enhance server-side rendering and optimize performance"
+        ]
+      }
+      
+    ]
+  },
+  "serviceData": [
+    {
+      "title": "Web Design",
+      "heading": "Perspiciatis vero deleniti dolor assumenda voluptatum animi",
+      "triger": "One",
+      "imgLink": "/images/services-1.jpg",
+      "text": "Perspiciatis vero deleniti dolor assumenda voluptatum animi ut repellendus sit dolorem asperiores! Porro ullam pariatur neque beatae. Suscipit veniam fugiat vero, dolores perspiciatis asperiores, labore aspernatur quis enim ex quibusdam laboriosam ipsam qui ullam nulla iusto blanditiis praesentium fugit quo officiis doloremque provident! Dignissimos praesentium alias aliquid fugiat nihil tenetur itaque perspiciatis."
+    },
+    {
+      "title": "UI/UX Design",
+      "heading": "You can customize a template or make your own from scratch, with an immersive library at your disposal. You can customize a template",
+      "triger": "Two",
+      "imgLink": "/images/services-2.jpg",
+      "text": "Adipisci vitae ducimus voluptas veniam quidem, mollitia deserunt nihil, nulla cumque fugit laborum inventore similique, debitis neque tempore ipsa aspernatur? Necessitatibus vero ducimus molestiae doloribus reprehenderit modi vitae illum eos animi fugiat placeat blanditiis adipisci earum ab laborum id voluptates quo."
+    },
+    {
+      "title": "Mobile Application",
+      "heading": "Neque quo numquam consequuntur odio porro quidem soluta amet eveniet. Similique eum cupiditate repellat ipsa.",
+      "triger": "Three",
+      "imgLink": "/images/services-3.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente nulla repellendus consequuntur! Ipsa perferendis explicabo reiciendis, quos sint nobis praesentium officia consequuntur! Ullam maxime, provident placeat nesciunt eius distinctio ipsam modi vel nam iste ea neque quo numquam consequuntur odio porro quidem soluta amet eveniet. Similique eum cupiditate repellat ipsa."
+    },
+    {
+      "title": "User Research",
+      "heading": "Sint, mollitia accusamus odit inventore, veritatis eos repellendus nihil voluptates voluptatibus adipisci",
+      "triger": "Four",
+      "imgLink": "/images/services-4.jpg",
+      "text": "Sint, mollitia accusamus odit inventore, veritatis eos repellendus nihil voluptates voluptatibus adipisci sequi exercitationem optio labore perferendis aliquid cupiditate, nesciunt doloremque? Quidem totam, quas neque repudiandae amet rem harum inventore quo! Fuga ad esse excepturi optio, sint cum laborum."
+    }
+  ],
+  "portfolioData": [
+    {
+      "ImgLink": "/images/services-1.jpg",
+      "subTitle": "UX case study",
+      "title": "Processor Research",
+      "link": "",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/services-2.jpg",
+      "subTitle": "UX case study",
+      "title": "Artificial Research",
+      "link": "",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/services-3.jpg",
+      "subTitle": "UX case study",
+      "title": "Website Research",
+      "link": "",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/services-4.jpg",
+      "subTitle": "UX case study",
+      "title": "Robotics Research",
+      "link": "",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    }
+  ],
+  "blogData": [
+    {
+      "ImgLink": "/images/blog-1.jpg",
+      "date": "12 July, 2022",
+      "delay": "700",
+      "title": "12 unique example of portfolio websites",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/blog-2.jpg",
+      "date": "11 July, 2022",
+      "delay": "800",
+      "title": "12 unique example of portfolio websites",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/blog-3.jpg",
+      "date": "10 July, 2022",
+      "delay": "900",
+      "title": "12 unique example of portfolio websites",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/blog-4.jpg",
+      "date": "10 July, 2022",
+      "delay": "1000",
+      "title": "12 unique example of portfolio websites",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+        },
+        {
+          "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    }
+  ],
+  "sliderData": {
+    "testimonialInfo": {
+      "useFor": "testimonial",
+      "settings": {
+        "infinite": true,
+        "speed": 1500,
+        "autoplay": true,
+        "autoplaySpeed": 5000,
+        "slidesToShow": 2,
+        "slidesToScroll": 1,
+        "arrows": false,
+        "dots": true,
+        "responsive": [
+          {
+            "breakpoint": 991,
+            "settings": {
+              "slidesToShow": 1,
+              "autoplay": true
+            }
+          }
+        ]
+      },
+      "info": [
+        {
+          "imgLink": "/images/avatar-1.jpg",
+          "name": "Ema Watson",
+          "designation": "Chief Executive Officer, Brazil",
+          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+        },
+        {
+          "imgLink": "/images/avatar-2.jpg",
+          "name": "Ema Watson",
+          "designation": "Chief Executive Officer, Brazil",
+          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+        },
+        {
+          "imgLink": "/images/avatar-1.jpg",
+          "name": "Ema Watson",
+          "designation": "Chief Executive Officer, Brazil",
+          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+        },
+        {
+          "imgLink": "/images/avatar-2.jpg",
+          "name": "Ema Watson",
+          "designation": "Chief Executive Officer, Brazil",
+          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+        }
+      ]
+    },
+    "brandInfo": {
+      "useFor": "brand",
+      "settings": {
+        "infinite": true,
+        "speed": 1000,
+        "autoplay": true,
+        "autoplaySpeed": 3000,
+        "slidesToShow": 5,
+        "slidesToScroll": 1,
+        "arrows": false,
+        "responsive": [
+          {
+            "breakpoint": 991,
+            "settings": {
+              "slidesToShow": 4
+            }
+          },
+          {
+            "breakpoint": 767,
+            "settings": {
+              "slidesToShow": 3
+            }
+          }
+        ]
+      },
+      "info": [
+        {
+          "imgLink": "/images/brand-1.png"
+        },
+        {
+          "imgLink": "/images/brand-2.png"
+        },
+        {
+          "imgLink": "/images/brand-3.png"
+        },
+        {
+          "imgLink": "/images/brand-4.png"
+        },
+        {
+          "imgLink": "/images/brand-1.png"
+        },
+        {
+          "imgLink": "/images/brand-2.png"
+        }
+      ]
+    }
+  },
+  "contactData": {
+    "contactInfo": [
+      {
+        "icon": "chat-left-dots-fill",
+        "title": "Chat to us",
+        "text": "Our friendly team is there to help.",
+        "emailLink": "info@domainname.com"
+      },
+      {
+        "icon": "compass",
+        "title": "Visit us",
+        "text": "Come say hello at ur office HQ. Warnwe Park Streetperrine, FL 33157 New York City"
+      },
+      {
+        "icon": "phone",
+        "title": "Call us",
+        "text": "Mon-Fri from 8am to 5pm. +01 (555) 000-0000"
+      }
+    ],
+    "contactForm": {
+      "title": "Got Ideas? We have got the skills. Lets team up.",
+      "text": "Tell us more about yourself and what you are got in mind."
+    }
+  },
+  "footerData": {
+    "ImgLink": "/images/about-banner.png",
+    "name": "lilon williamson"
+  },
+  "socialData": [
+    {
+      "icon": "twitter",
+      "link": ""
+    },
+    {
+      "icon": "instagram",
+      "link": ""
+    },
+    {
+      "icon": "facebook",
+      "link": ""
+    },
+    {
+      "icon": "pinterest",
+      "link": ""
+    }
+  ]
+}
