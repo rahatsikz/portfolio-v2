@@ -13,3 +13,4 @@
 
 .vercel
 dist
+.env

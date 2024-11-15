@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import perser from "html-react-parser";
 
 const Hero = ({ data }) => {
-  const { title, subTitle, ImgLink, phone, email, resumeCv } = data;
+  const { title, subTitle, ImgLink, resumeCv } = data;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -51,7 +51,7 @@ const Hero = ({ data }) => {
                   Download my resume <Icon icon='bi-download' />
                 </a>
               </div>
-              <div
+              {/* <div
                 className='info-bar'
                 data-aos='fade-up'
                 data-aos-duration='800'
@@ -66,7 +66,7 @@ const Hero = ({ data }) => {
                   <Icon icon='bi-envelope' />
                   <span>{email}</span>
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

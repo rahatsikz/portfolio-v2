@@ -1,3 +1,4 @@
+import { Toaster } from "react-hot-toast";
 import About from "../components/About/About";
 import Contact from "../components/Contact/Contact";
 import Experience from "../components/Experience/Experience";
@@ -27,6 +28,7 @@ const Home = () => {
         <Skills />
         <Projects data={serviceData} />
         <Contact data={contactData} />
+        <Toaster />
       </main>
     </>
   );

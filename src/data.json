@@ -10,7 +10,7 @@
     "phone": "01521210755",
     "email": "rahatsikz@gmail.com",
     "btnText": "Work with me",
-    "resumeCv": "/Resume.pdf",
+    "resumeCv": "/Rahat_React.pdf",
     "socialData": [
       {
         "link": "",
@@ -424,25 +424,33 @@
   "contactData": {
     "contactInfo": [
       {
-        "icon": "chat-left-dots-fill",
-        "title": "Chat to us",
-        "text": "Our friendly team is there to help.",
-        "emailLink": "info@domainname.com"
+        "icon": "bi:chat-left-dots-fill",
+        "title": "Chat with me",
+        "text": "Knock me up on WhatsApp ",
+        "emailLink": "+8801521210755"
       },
       {
-        "icon": "compass",
-        "title": "Visit us",
-        "text": "Come say hello at ur office HQ. Warnwe Park Streetperrine, FL 33157 New York City"
+        "icon": "bi:compass",
+        "title": "Visit me",
+        "text": "Come say hello to me in my area",
+        "location": "Dakshinkhan, Dhaka-1230"
       },
       {
-        "icon": "phone",
-        "title": "Call us",
-        "text": "Mon-Fri from 8am to 5pm. +01 (555) 000-0000"
+        "icon": "bi:phone",
+        "title": "Call me",
+        "text": "Sat-Thu from 11am to 10pm",
+        "phoneLink": "+8801521210755"
+      },
+      {
+        "icon": "ic:outline-mail",
+        "title": "Mail me",
+        "text": "Send me an email on",
+        "phoneLink": "rahatsikz@gmail.com"
       }
     ],
     "contactForm": {
-      "title": "Got Ideas? We have got the skills. Lets team up.",
-      "text": "Tell us more about yourself and what you are got in mind."
+      "title": "Ideas in mind? Let's work together and make it happen",
+      "text": "Fill up the form to start a conversation"
     }
   },
   "footerData": {
@@ -451,20 +459,20 @@
   },
   "socialData": [
     {
-      "icon": "twitter",
-      "link": ""
+      "icon": "linkedin",
+      "link": "https://www.linkedin.com/in/rahatsikz/"
     },
     {
       "icon": "instagram",
-      "link": ""
+      "link": "https://www.instagram.com/rahat_sikder/"
     },
     {
-      "icon": "facebook",
-      "link": ""
+      "icon": "github",
+      "link": "https://github.com/rahatsikz"
     },
     {
-      "icon": "pinterest",
-      "link": ""
+      "icon": "google",
+      "link": "mailto:rahatsikz@gmail.com"
     }
   ]
 }

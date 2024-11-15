@@ -361,8 +361,7 @@ a {
     }
   }
   .r-meta {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
     font-size: 16px;
     font-weight: 500;
     padding-bottom: 12px;
@@ -690,13 +689,14 @@ a {
 }
 .contact-form {
   padding: 50px;
+  border-radius: 4px;
   @include down-sm {
     padding: 30px;
   }
   .contact-head {
     margin-bottom: 35px;
     h4 {
-      font-size: 40px;
+      font-size: 32px;
       font-weight: 700;
       line-height: 1.1;
       margin-bottom: 15px;
@@ -707,20 +707,30 @@ a {
   }
   .form-label {
     font-weight: 500;
-    text-transform: uppercase;
-    font-size: 12px;
+    text-transform: capitalize;
+    font-size: 14px;
   }
   .form-control {
     background: rgba(var(--px-white-rgb), 0.05);
-    border-radius: 0;
+    border-radius: 4px;
     padding: 0.675rem 0.75rem;
-    border: 1px solid rgba(var(--px-white-rgb), 0.3);
+    font-size: 14px;
+
+    border: 2px solid rgba(var(--px-white-rgb), 0.3);
     color: var(--px-white);
+    outline: none;
     box-shadow: none;
     &::placeholder {
       color: var(--px-white);
       opacity: 0.7;
     }
+  }
+  .form-control:focus {
+    background: rgba(var(--px-white-rgb), 0.05);
+    color: white;
+    outline: none;
+    border-color: white;
+    box-shadow: none;
   }
 }
 
@@ -732,7 +742,9 @@ a {
   }
   li {
     display: flex;
+    align-items: center;
     border: 1px solid rgba(var(--px-white-rgb), 0.1);
+    border-radius: 5px;
     padding: 20px;
     background: var(--px-bg);
     .icon {
@@ -744,6 +756,7 @@ a {
       background: linear-gradient(270.16deg, var(--px-theme-2) 5.74%, var(--px-theme) 92.05%);
       color: var(--px-white);
       font-size: 20px;
+      border-radius: 4px;
     }
     .text {
       padding-left: 20px;

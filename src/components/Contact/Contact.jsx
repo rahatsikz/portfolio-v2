@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import { Icon } from "@iconify/react";
 import SectionHeading from "../SectionHeading/SectionHeading";
 import { useState } from "react";
+import toast from "react-hot-toast";
 
 const Contact = ({ data }) => {
   const { contactInfo, contactForm } = data;
@@ -27,10 +28,12 @@ const Contact = ({ data }) => {
     event.preventDefault();
     setLoading(true);
     const formData = new FormData(event.target);
-    formData.append("access_key", "fcc74231-656a-425b-a54f-aff38354fadb");
+    formData.append("access_key", import.meta.env.VITE_API_KEY);
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
+
+    console.log({ json });
 
     const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -44,6 +47,7 @@ const Contact = ({ data }) => {
     if (res.success) {
       setFormData({ name: "", email: "", subject: "", message: "" });
       setLoading(false);
+      toast.success("Got your message!");
     }
   };
   return (
@@ -51,11 +55,14 @@ const Contact = ({ data }) => {
       id='contact'
       data-scroll-index={5}
       className='section contact-section'
+      style={{
+        paddingBottom: "9rem",
+      }}
     >
       <div className='container'>
         <div className='row gy-5'>
           <div className='col-lg-5'>
-            <SectionHeading title='Reach out me' subTitle='Contact' />
+            <SectionHeading title='Contact' subTitle='Reach out to me' />
             <div className='contact-info'>
               <ul>
                 {contactInfo.map((element, index) => (
@@ -66,19 +73,23 @@ const Contact = ({ data }) => {
                     data-aos-delay='400'
                   >
                     <div className='icon'>
-                      <Icon icon={`bi:${element.icon}`} />
+                      <Icon icon={`${element.icon}`} />
                     </div>
                     <div className='text'>
                       <label>{element.title}</label>
                       <p>
                         {element.text}
                         <span>
-                          {element.emailLink && (
-                            <a
-                              className='text-reset'
-                              href='mailto:info@domainname.com'
-                            >
-                              {element.emailLink}
+                          {(element.emailLink ||
+                            element.location ||
+                            element.phoneLink) && (
+                            <a className='text-reset'>
+                              <br />
+                              <span style={{ color: "var(--px-theme)" }}>
+                                {element.emailLink && element.emailLink}{" "}
+                                {element.location && element.location}
+                                {element.phoneLink && element.phoneLink}
+                              </span>
                             </a>
                           )}
                         </span>
@@ -87,14 +98,6 @@ const Contact = ({ data }) => {
                   </li>
                 ))}
               </ul>
-              {/* <div className="google-map" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
-                <div className="ratio ratio-21x9">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3151.840107317064!2d144.955925!3d-37.817214!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1520156366883"
-                    allowFullScreen=""
-                  />
-                </div>
-              </div> */}
             </div>
           </div>
           <div className='col-lg-7 ps-xl-5'>
@@ -109,12 +112,16 @@ const Contact = ({ data }) => {
                 <p>{contactForm.text}</p>
               </div>
               <form onSubmit={onSubmit} id='contact-form' method='POST'>
-                <input type='hidden' name='from_name' value='Lilon Macwan' />
-                <input type='hidden' name='replyto' value='custom@gmail.com' />
+                <input type='hidden' name='from_name' value='Rahat Sikder' />
+                <input
+                  type='hidden'
+                  name='replyto'
+                  value='rahatsiz@gmail.com'
+                />
                 <div className='row gx-3 gy-4'>
                   <div className='col-md-6'>
                     <div className='form-group'>
-                      <label className='form-label'>First name</label>
+                      <label className='form-label'>Your Name</label>
                       <input
                         name='name'
                         id='name'
