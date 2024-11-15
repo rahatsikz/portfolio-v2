@@ -1,0 +1,24 @@
+.serviceFeature {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    margin: 0;
+  }
+
+  @media screen and (max-width: 767px), screen and (min-width: 1080px) and (max-width: 1368px) {
+    .serviceFeature{
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .ghostbutton {
+    border-bottom: 2px solid var(--px-theme);
+    color: var(--px-theme);
+    padding: 0 6px;
+    font-size: 14px;
+  }
+
+  .ghostbutton:hover {
+    border-bottom: 2px solid var(--px-theme-2);
+    color: var(--px-theme-2);
+  }

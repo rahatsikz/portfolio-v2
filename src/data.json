@@ -94,32 +94,74 @@
   },
   "serviceData": [
     {
-      "title": "Web Design",
-      "heading": "Perspiciatis vero deleniti dolor assumenda voluptatum animi",
+      "title": "Nomad Horizon",
+      "heading": "Online Service Reservation and Administration Portal",
       "triger": "One",
-      "imgLink": "/images/services-1.jpg",
-      "text": "Perspiciatis vero deleniti dolor assumenda voluptatum animi ut repellendus sit dolorem asperiores! Porro ullam pariatur neque beatae. Suscipit veniam fugiat vero, dolores perspiciatis asperiores, labore aspernatur quis enim ex quibusdam laboriosam ipsam qui ullam nulla iusto blanditiis praesentium fugit quo officiis doloremque provident! Dignissimos praesentium alias aliquid fugiat nihil tenetur itaque perspiciatis."
+      "imgLink": "/images/nomad.png",
+      "text": "Nomad Horizon is an Online Service Reservation and Administration Portal application. It is developed to attract Digital Nomads around the world and help them on course. It gives them options like book a service online, track their order and avail them on their journey.",
+      "features": ["Role-Based Access Control (RBAC)", "User Notifications Center", "Booking Management for Admins", "User friendly Booking system"],
+      "links":[
+        {
+          "live": "https://nomad-horizon.vercel.app"
+        },{
+          "clientGit": "https://github.com/rahatsikz/nomad-horizon"
+
+        },{
+          "serverGit": "https://github.com/rahatsikz/nomad-horizon-backend"
+
+        }
+      ]
     },
     {
-      "title": "UI/UX Design",
-      "heading": "You can customize a template or make your own from scratch, with an immersive library at your disposal. You can customize a template",
+      "title": "Red UI",
+      "heading": "Component builder library",
       "triger": "Two",
-      "imgLink": "/images/services-2.jpg",
-      "text": "Adipisci vitae ducimus voluptas veniam quidem, mollitia deserunt nihil, nulla cumque fugit laborum inventore similique, debitis neque tempore ipsa aspernatur? Necessitatibus vero ducimus molestiae doloribus reprehenderit modi vitae illum eos animi fugiat placeat blanditiis adipisci earum ab laborum id voluptates quo."
+      "imgLink": "/images/red2.png",
+      "text": "Red UI is a React.js component builder library built with Next.js, TypeScript, and Tailwind CSS. It offers developers a wide range of components to use in their projects, providing flexibility and ease of use.",
+      "features": ["Preview components with real-time rendering", "Live interactive edit mode", "Leveraging Pogressive Web App", "Components without any dependencies"],
+      "links":[
+        {
+          "live": "https://red-ui.vercel.app/"
+        },{
+          "clientGit": "https://github.com/rahatsikz/red-ui"
+
+        }
+      ]
     },
     {
-      "title": "Mobile Application",
-      "heading": "Neque quo numquam consequuntur odio porro quidem soluta amet eveniet. Similique eum cupiditate repellat ipsa.",
+      "title": "Second Time Around",
+      "heading": "Mobile reselling platform",
       "triger": "Three",
-      "imgLink": "/images/services-3.jpg",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente nulla repellendus consequuntur! Ipsa perferendis explicabo reiciendis, quos sint nobis praesentium officia consequuntur! Ullam maxime, provident placeat nesciunt eius distinctio ipsam modi vel nam iste ea neque quo numquam consequuntur odio porro quidem soluta amet eveniet. Similique eum cupiditate repellat ipsa."
+      "imgLink": "/images/second2.png",
+      "text": "Second Time Around is a mobile reselling website with a target to sell used mobile online. Through this platform People can list their product to sell and buy from other people. The platform is built with React, JavaScript, Tailwind CSS and Firebase.",
+      "features": ["Payment Gateway with Stripe", "Authentication with Firebase", "Different Dashboard based on role", "Product advertising system for logged in users"],
+      "links":[
+        {
+          "live": "https://rat-second-time-around.web.app"
+        },{
+          "clientGit": "https://github.com/rahatsikz/second-time-around"
+
+        },
+        {
+          "serverGit": "https://github.com/rahatsikz/second-time-around-server"
+        }
+      ]
     },
     {
-      "title": "User Research",
-      "heading": "Sint, mollitia accusamus odit inventore, veritatis eos repellendus nihil voluptates voluptatibus adipisci",
+      "title": "Book Catalogue",
+      "heading": "Backend API for Book Catalogue",
       "triger": "Four",
-      "imgLink": "/images/services-4.jpg",
-      "text": "Sint, mollitia accusamus odit inventore, veritatis eos repellendus nihil voluptates voluptatibus adipisci sequi exercitationem optio labore perferendis aliquid cupiditate, nesciunt doloremque? Quidem totam, quas neque repudiandae amet rem harum inventore quo! Fuga ad esse excepturi optio, sint cum laborum."
+      "imgLink": "/images/book.png",
+      "text": "Book Catalogue is a standalone backend project for a book catalogue application. It is built using Node.js, Express.js, Prisma and PostgreSQL. It provides various endpoints for creating, reading, updating and deleting operations.",
+      "features": ["Custom Authentication", "CRUD Operations", "Pagination and Sorting", "Search and Filtering functionality"],
+      "links":[
+        {
+          "live": "https://book-catallog-backend-three.vercel.app"
+        },
+        {
+          "serverGit": "https://github.com/rahatsikz/book-catallog-backend"
+        }
+      ]
     }
   ],
   "portfolioData": [

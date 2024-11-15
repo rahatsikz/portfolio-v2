@@ -1,13 +1,9 @@
 import About from "../components/About/About";
-import Blog from "../components/Blog/Blog";
 import Contact from "../components/Contact/Contact";
 import Experience from "../components/Experience/Experience";
-import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero/Hero";
-import Portfolio from "../components/Portfolio/Portfolio";
-import Service from "../components/Service/Service";
+import Projects from "../components/Projects/Projects";
 import Skills from "../components/skills/skills";
-import Testimonial from "../components/Testimonial/Testimonial";
 import data from "../data.json";
 
 const Home = () => {
@@ -15,12 +11,12 @@ const Home = () => {
     heroData,
     aboutData,
     experienceData,
-    portfolioData,
+    // portfolioData,
     serviceData,
-    blogData,
-    sliderData,
+    // blogData,
+    // sliderData,
     contactData,
-    footerData,
+    // footerData,
   } = data;
   return (
     <>
@@ -29,12 +25,8 @@ const Home = () => {
         <About data={aboutData} />
         <Experience data={experienceData} />
         <Skills />
-        <Service data={serviceData} />
-        <Portfolio data={portfolioData} />
-        <Testimonial data={sliderData} />
-        <Blog data={blogData} />
+        <Projects data={serviceData} />
         <Contact data={contactData} />
-        <Footer data={footerData} />
       </main>
     </>
   );
