@@ -252,6 +252,7 @@ a {
   padding-top: 45px;
   .a-number {
     display: flex;
+    align-items: center;
     padding-bottom: 16px;
     @media screen and (max-width: 767px) {
       flex-direction: column;
@@ -266,6 +267,10 @@ a {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
+
+      @media screen and (max-width: 767px) {
+        font-size: 35px;
+      }
     }
     span {
       flex: 1;
@@ -277,6 +282,7 @@ a {
       @media screen and (max-width: 767px) {
         padding-left: 0;
         margin-top: 10px;
+        font-size: 14px;
       }
     }
   }

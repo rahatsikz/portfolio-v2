@@ -49,7 +49,7 @@ const About = ({ data }) => {
             <div className='about-exp'>
               <div className='row gy-4'>
                 {achivement.map((element, index) => (
-                  <div className='col-6 col-md-4' key={index}>
+                  <div className='col-4 col-md-4' key={index}>
                     <div className='a-number'>
                       <h6>{element.number}</h6>
                       <span>{perser(element.meta)}</span>

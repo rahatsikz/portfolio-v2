@@ -18,7 +18,10 @@
 
 @media screen and (max-width: 767px) {
     .skillsParent {
-        gap: 10px;
+        /* display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px; */
+        justify-content: space-between;
     }
 }
 

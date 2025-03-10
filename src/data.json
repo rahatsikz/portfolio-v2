@@ -34,7 +34,7 @@
       "resumeCv": "/Resume.pdf"
     },
     "aboutRight": {
-      "aboutText": "I'm a passionate software developer born in 1995, with a deep commitment to building innovative digital solutions. I started my journey in development back in 2017, and in 2022, I made the switch to focus on the JavaScript stack, which has allowed me to bring a fresh perspective to modern web development. I'm a determined individual aiming to make a meaningful impact through my work, constantly learning new technologies in the programming field. Writing code, fixing bugs, diving into documentation, and exploring creative solutions have become my daily routine over the last few years. I also have hands-on experience developing SaaS products and working under pressure to deliver high-quality results.",
+      "aboutText": "I'm a passionate software developer born in 1995, with a deep commitment to building innovative digital solutions. I started my journey in development back in 2017, and in 2022, I made the switch to focus on the JavaScript stack, which has allowed me to bring a fresh perspective to modern web development. Writing code, fixing bugs, diving into documentation, and exploring creative solutions have become my daily routine over the last few years.",
       "contactInfo": [
         {
           "icon": "phone",
@@ -66,7 +66,7 @@
         },
         {
           "number": "900+",
-          "meta": "Commits pushed <br /> across projects"
+          "meta": "Commits <br /> across projects"
         }
       ],
       "note": "Crafting visually appealing interfaces with a focus on seamless user experience is what I love to do"
