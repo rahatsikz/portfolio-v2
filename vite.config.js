@@ -8,4 +8,8 @@ export default defineConfig({
     host: "0.0.0.0",
     port: 3000,
   },
+  define: {
+    // eslint-disable-next-line no-undef
+    "import.meta.env.VITE_API_KEY": JSON.stringify(process.env.VITE_API_KEY),
+  },
 });
